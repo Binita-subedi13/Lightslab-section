@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Domine';
+}
+.dropshipping{
+    font-family: 'Domine', serif;
+}
+.dropshipping-color{
+    background-color: #a13d63;
+}
+/* .swiper{
+    width:10%;
+} */
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: "" !important;
+}
+
+.image-border{
+    border-width: 13px;
+    border-style:solid;
+    border-color:#fff;
+    height:10.6rem;
+    width:10.6rem;
+    background-color: white;
+}
+
